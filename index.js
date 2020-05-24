@@ -32,4 +32,3 @@ const wakeDog = function (dogName, dogBreed) {
      walkHome,
      unleashDog
   ];
-
