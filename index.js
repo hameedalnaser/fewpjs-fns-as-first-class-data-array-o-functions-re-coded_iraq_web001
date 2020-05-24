@@ -32,3 +32,9 @@ const wakeDog = function (dogName, dogBreed) {
      walkHome,
      unleashDog
   ];
+  function exerciseDog(dogName, dogBreed) {
+  const newArr =routine.map(fun => {
+    return fun(dogName, dogBreed);
+  });
+  return newArr;
+  }
